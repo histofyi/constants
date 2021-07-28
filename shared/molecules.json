@@ -1,0 +1,74 @@
+{
+	"class_i": {
+		"title": "MHC Class I",
+		"class": "Class I",
+		"chains": ["alpha", "beta2m", "peptide"],
+		"domains": {
+			"alpha1": {
+				"start": 0,
+				"end": 90
+			},
+			"alpha2": {
+				"start": 91,
+				"end": 182
+			}
+		},
+		"antigen_binding_domain": {
+			"includes": ["alpha1", "alpha2"],
+			"pockets": {
+				"A": {
+					"binds": ["n_terminus", "p1"]
+				},
+				"B": {
+					"binds": ["p2"]
+				},
+				"C": {
+					"binds": []
+				},
+				"D": {
+					"binds": []
+				},
+				"E": {
+					"binds": []
+				},
+				"F": {
+					"binds": ["pn", "c-terminus"]
+				}
+			}
+		}
+	},
+	"class_ii": {
+		"title": "MHC Class II",
+		"class": "Class II",
+		"chains": ["alpha", "beta", "peptide"],
+		"domains": {
+			"alpha1": {
+				"start": 0,
+				"end": 90
+			},
+			"alpha2": {
+				"start": 91,
+				"end": 182
+			},
+			"beta1": {
+				"start": 0,
+				"end": 90
+			},
+			"beta2": {
+				"start": 91,
+				"end": 182
+			}
+		},
+		"antigen_binding_domain": {
+			"includes": ["alpha1", "beta1"],
+			"pockets": {
+				"A": {},
+				"B": {},
+				"C": {},
+				"D": {},
+				"E": {},
+				"F": {}
+			}
+		}
+	}
+}
