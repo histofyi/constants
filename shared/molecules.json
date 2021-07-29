@@ -2,7 +2,7 @@
 	"class_i": {
 		"title": "MHC Class I",
 		"class": "Class I",
-		"chains": ["alpha", "beta2m", "peptide"],
+		"chains": ["alpha","beta2m","peptide"],
 		"domains": {
 			"alpha1": {
 				"start": 0,
