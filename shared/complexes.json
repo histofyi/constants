@@ -1,12 +1,12 @@
 {
     "chains": {
         "class_i_alpha":{
-            "length":270,
+            "length":280,
             "features":[],
             "label":"alpha"
         },
         "beta2m":{
-            "length":90,
+            "length":100,
             "features":[],
             "label":"beta2m"
         },
