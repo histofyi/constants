@@ -4,7 +4,8 @@
             "length":280,
             "range":[-10,10],
             "features":[],
-            "label":"alpha"
+            "label":"alpha",
+            "starts_with":["SHSM","SHSL"]
         },
         "beta2m":{
             "length":100,
@@ -139,6 +140,13 @@
                     "chain_2":"beta2m",
                     "chain_3":"class_i_peptide",
                     "chain_4":"accessory_molecule"
+                },
+                {
+                    "label":"non_classical_class_i_with_peptide_and_t_cell_receptor",
+                    "chain_1":"class_i_alpha",
+                    "chain_2":"beta2m",
+                    "chain_3":"tcr_alpha",
+                    "chain_4":"tcr_beta"
                 },
                 {
                     "label":"class_i_with_peptide_and_nk_receptor",
