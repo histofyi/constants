@@ -2,31 +2,37 @@
     "chains": {
         "class_i_alpha":{
             "length":280,
+            "range":[-10,10],
             "features":[],
             "label":"alpha"
         },
         "beta2m":{
             "length":100,
+            "range":[-10,10],
             "features":[],
             "label":"beta2m"
         },
         "class_i_peptide":{
             "length":9,
+            "range":[-3,6],
             "features":[],
             "label":"class_i_peptide"
         },
         "class_ii_alpha":{
             "length":180,
+            "range":[-10,10],
             "features":[],
             "label":"alpha"
         },
         "class_ii_beta":{
             "length":180,
+            "range":[-10,10],
             "features":[],
             "label":"beta"
         },
         "class_ii_peptide":{
             "length":11,
+            "range":[-2,10],
             "features":[],
             "label":"class_i__peptide"
         },
@@ -34,22 +40,26 @@
         "accessory_molecule":{},
         "superantigen":{},
         "tcr_alpha":{
-            "length":180,
+            "length":200,
+            "range":[-10,10],
             "features":[],
             "label":"alpha"
         },
         "tcr_beta":{
-            "length":180,
+            "length":240,
+            "range":[-10,10],
             "features":[],
             "label":"beta"
         },
         "tcr_gamma":{
-            "length":180,
+            "length":200,
+            "range":[-10,10],
             "features":[],
             "label":"gamma"
         },
         "tcr_delta":{
-            "length":180,
+            "length":240,
+            "range":[-10,10],
             "features":[],
             "label":"delta"
         }
@@ -133,7 +143,7 @@
                 {
                     "label":"class_i_with_peptide_and_nk_receptor",
                     "chain_1":"class_i_alpha",
-                    "chain_2":"class_ibeta2mi_beta",
+                    "chain_2":"beta2m",
                     "chain_3":"class_i_peptide",
                     "chain_4":"nk_receptor"
                 },
