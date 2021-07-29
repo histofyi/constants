@@ -1,4 +1,10 @@
 {
-    "three_letter": ["ala", "arg", "asn", "asp", "cys", "glu", "gln", "gly", "his", "ile", "leu", "lys", "met", "phe", "pro", "ser", "thr", "trp", "tyr", "val"],
-    "one_letter": ["a", "r", "n", "d", "c", "e", "q", "g", "h", "i", "l", "k", "m", "f", "p", "s", "t", "w", "y", "v"]
+    "natural":{
+        "three_letter": ["ala", "arg", "asn", "asp", "cys", "glu", "gln", "gly", "his", "ile", "leu", "lys", "met", "phe", "pro", "ser", "thr", "trp", "tyr", "val"],
+        "one_letter": ["a", "r", "n", "d", "c", "e", "q", "g", "h", "i", "l", "k", "m", "f", "p", "s", "t", "w", "y", "v"]
+    },
+    "synthetic":{
+        "three_letter": [],
+        "one_letter": []
+    }
 }
