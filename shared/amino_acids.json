@@ -1,7 +1,51 @@
 {
     "natural":{
-        "three_letter": ["ala", "arg", "asn", "asp", "cys", "glu", "gln", "gly", "his", "ile", "leu", "lys", "met", "phe", "pro", "ser", "thr", "trp", "tyr", "val"],
-        "one_letter": ["a", "r", "n", "d", "c", "e", "q", "g", "h", "i", "l", "k", "m", "f", "p", "s", "t", "w", "y", "v"]
+        "translations":{
+            "three_letter":{
+                "ala":"a", 
+                "arg":"r", 
+                "asn":"n", 
+                "asp":"d", 
+                "cys":"c", 
+                "glu":"e", 
+                "gln":"q", 
+                "gly":"g", 
+                "his":"h", 
+                "ile":"i", 
+                "leu":"l", 
+                "lys":"k", 
+                "met":"m", 
+                "phe":"f", 
+                "pro":"p", 
+                "ser":"s", 
+                "thr":"t", 
+                "trp":"w", 
+                "tyr":"y", 
+                "val":"v"
+            },
+            "one_letter":{
+                "a":"ala", 
+                "r":"arg", 
+                "n":"asn", 
+                "d":"asp", 
+                "c":"cys", 
+                "e":"glu", 
+                "q":"gln", 
+                "g":"gly", 
+                "h":"his", 
+                "i":"ile", 
+                "l":"leu", 
+                "k":"lys", 
+                "m":"met", 
+                "f":"phe", 
+                "p":"pro", 
+                "s":"ser", 
+                "t":"thr", 
+                "w":"trp", 
+                "y":"tyr", 
+                "v":"val"
+            }
+        }
     },
     "synthetic":{
         "three_letter": [],
