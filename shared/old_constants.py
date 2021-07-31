@@ -162,36 +162,4 @@ SIZES = {
     }
 }
 
-OPTIONS = {
-"class_types":[
-    {"value": "class_i_a", "label":" Class I Alpha Chain"},
-    {"value": "non_classical_class_i_a", "label": "Non-classical Class I Alpha Chain"},
-    {"value": "b2m", "label":" Beta-2-microglobulin"},
-    {"value": "class_ii_a", "label": "Class II Alpha Chain"},
-    {"value": "class_ii_b", "label": "Class II Beta Chain"},
-    {"value": "non_classical_class_ii_a", "label": "Non-classical Class II Alpha Chain"},
-    {"value": "non_classical_class_ii_b", "label": "Non-classical Class II Beta Chain"},
-    {"value": "t_cell_receptor", "label": "T-cell receptor" },
-    {"value": "accessory_molecule", "label": "Accessory molecule"},
-    {"value": "antigen_processing_molecule", "label": "Antigen Processing Molecule"}],
-"species": [
-    {"value": "homo_sapiens", "label": "Human", "scientific_name": "Homo sapiens"},
-    {"value": "macaca_mulatta", "label": "Macaque", "scientific_name": "Macaca mulatta"},
-    {"value": "pan_troglodytes", "label": "Chimpanzee", "scientific_name": "Pan troglodytes"},
-    {"value": "mus_musculus", "label": "Mouse", "scientific_name": "Mus musculus"},
-    {"value": "rattus_norvegicus", "label": "Rat", "scientific_name": "Rattus norvegicus"},
-    {"value": "canis_lupus_familiaris", "label": "Dog", "scientific_name": "Canis lupus familiaris"},
-    {"value": "bos_taurus", "label": "Cow", "scientific_name": "Bos taurus"},
-    {"value": "equus_caballus", "label": "Horse", "scientific_name": "Equus caballus"},
-    {"value": "ovis_aries", "label": "Sheep", "scientific_name": "Ovis aries"},
-    {"value": "sus_scrofa", "label": "Pig", "scientific_name": "Sus scrofa"},
-    {"value": "gallus_gallus", "label": "Chicken", "scientific_name": "Gallus gallus"},
-    {"value": "anas_platyrhynchos", "label": "Duck", "scientific_name": "Anas platyrhynchos"},
-]
-}
 
-
-
-
-
-ORGANISMS = {}
