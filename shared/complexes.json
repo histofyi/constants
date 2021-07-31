@@ -5,64 +5,83 @@
             "range":[-10,10],
             "features":[],
             "label":"alpha",
+            "ui_text":"Class I alpha",
             "starts_with":["SHSM","SHSL"]
         },
         "beta2m":{
             "length":100,
             "range":[-10,10],
             "features":[],
-            "label":"beta2m"
+            "label":"beta2m",
+            "ui_text":"Beta 2 microglobulin"
         },
         "class_i_peptide":{
             "length":9,
             "range":[-3,6],
             "features":[],
-            "label":"class_i_peptide"
+            "label":"class_i_peptide",
+            "ui_text":"Class I peptide"
         },
         "class_ii_alpha":{
             "length":180,
             "range":[-10,10],
             "features":[],
-            "label":"alpha"
+            "label":"alpha",
+            "ui_text":"Class II alpha"
         },
         "class_ii_beta":{
             "length":180,
             "range":[-10,10],
             "features":[],
-            "label":"beta"
+            "label":"beta",
+            "ui_text":"Class II beta"
         },
         "class_ii_peptide":{
             "length":11,
             "range":[-2,10],
             "features":[],
-            "label":"class_i__peptide"
+            "label":"class_ii_peptide",
+            "ui_text":"Class II peptide"
         },
-        "nk_receptor":{},
-        "accessory_molecule":{},
-        "superantigen":{},
+        "nk_receptor":{
+            "label":"nk_receptor",
+            "ui_text":"NK receptor"
+        },
+        "accessory_molecule":{
+            "label":"accessory_molecule",
+            "ui_text":"Accessory molecule"
+        },
+        "superantigen":{
+            "label":"superantigen",
+            "ui_text":"Superantigen"
+        },
         "tcr_alpha":{
             "length":200,
             "range":[-10,10],
             "features":[],
-            "label":"alpha"
+            "label":"tcr_alpha",
+            "ui_text":"T cell receptor alpha"
         },
         "tcr_beta":{
             "length":240,
             "range":[-10,10],
             "features":[],
-            "label":"beta"
+            "label":"tcr_beta",
+            "ui_text":"T cell receptor beta"
         },
         "tcr_gamma":{
             "length":200,
             "range":[-10,10],
             "features":[],
-            "label":"gamma"
+            "label":"tcr_gamma",
+            "ui_text":"T cell receptor gamma"
         },
         "tcr_delta":{
             "length":240,
             "range":[-10,10],
             "features":[],
-            "label":"delta"
+            "label":"tcr_delta",
+            "ui_text":"T cell receptor delta"
         }
     },
     "complexes":[
