@@ -11,6 +11,7 @@
     {"value": "sus_scrofa", "label": "Pig", "scientific_name": "Sus scrofa"},
     {"value": "gallus_gallus", "label": "Chicken", "scientific_name": "Gallus gallus"},
     {"value": "anas_platyrhynchos", "label": "Duck", "scientific_name": "Anas platyrhynchos"}
-    {"value": "pteropus_alecto", "label": "Bat", "scientific_name": "Pteropus alecto"}
+    {"value": "pteropus_alecto", "label": "Bat", "scientific_name": "Pteropus alecto"},
+    {"value": "ailuropoda_melanoleuca", "label": "Giant panda", "scientific_name": "Ailuropoda melanoleuca"}
 ]
 
