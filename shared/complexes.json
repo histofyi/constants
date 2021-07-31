@@ -4,8 +4,16 @@
             "length":280,
             "range":[-10,10],
             "features":[],
-            "label":"alpha",
+            "label":"class_i_alpha",
             "ui_text":"Class I alpha",
+            "starts_with":["SHSM","SHSL"]
+        },
+        "truncated_class_i_alpha":{
+            "length":180,
+            "range":[-10,10],
+            "features":[],
+            "label":"truncated_class_i_alpha",
+            "ui_text":"Class I alpha (truncated)",
             "starts_with":["SHSM","SHSL"]
         },
         "beta2m":{
@@ -26,14 +34,14 @@
             "length":180,
             "range":[-10,10],
             "features":[],
-            "label":"alpha",
+            "label":"class_ii_alpha",
             "ui_text":"Class II alpha"
         },
         "class_ii_beta":{
             "length":180,
             "range":[-10,10],
             "features":[],
-            "label":"beta",
+            "label":"class_ii_beta",
             "ui_text":"Class II beta"
         },
         "class_ii_peptide":{
@@ -68,6 +76,13 @@
             "features":[],
             "label":"tcr_beta",
             "ui_text":"T cell receptor beta"
+        },
+        "pre_tcr_beta":{
+            "length":240,
+            "range":[-10,10],
+            "features":[],
+            "label":"pre_tcr_beta",
+            "ui_text":"pre T cell receptor beta"
         },
         "tcr_gamma":{
             "length":200,
