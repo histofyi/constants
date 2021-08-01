@@ -1,4 +1,22 @@
 {
+    "dimer": {
+        "length": 2
+    },
+    "trimer": {
+        "length": 3
+    },
+    "tetramer": {
+        "length": 4
+    },
+    "pentamer": {
+        "length": 5
+    },
+    "hexamer": {
+        "length": 6
+    },
+    "heptamer": {
+        "length": 7
+    },
     "octamer": {
         "length": 8
     },
