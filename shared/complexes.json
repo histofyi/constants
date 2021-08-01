@@ -14,7 +14,7 @@
             "features":[],
             "label":"truncated_class_i_alpha",
             "ui_text":"Class I alpha (truncated)",
-            "starts_with":["SHSM","SHSL"]
+            "starts_with":[]
         },
         "beta2m":{
             "length":100,
