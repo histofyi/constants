@@ -259,5 +259,11 @@
                 }
             ]
         }
-    ]
+    ],
+    "complex_labels": {
+        "class_i_with_peptide": "Class I with peptide",
+        "non_classical_class_i_with_peptide": "Class I (non-classical) with peptide",
+        "class_ii_with_peptide": "Class II with peptide",
+        "class_i_with_peptide_and_ab_t_cell_receptor": "Class I with peptide and &alpha;/&beta; T-cell receptor"
+    }
 }
