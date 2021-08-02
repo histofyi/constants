@@ -250,6 +250,14 @@
                     "chain_5":"nk_receptor"
                 },
                 {
+                    "label":"class_i_with_peptide_and_accessory_molecule",
+                    "chain_1":"class_i_alpha",
+                    "chain_2":"class_i_beta",
+                    "chain_3":"class_i_peptide",
+                    "chain_4":"accessory_molecule",
+                    "chain_5":"accessory_molecule"
+                },
+                {
                     "label":"class_ii_with_peptide_and_t_cell_receptor",
                     "chain_1":"class_ii_alpha",
                     "chain_2":"class_ii_beta",
@@ -264,6 +272,8 @@
         "class_i_with_peptide": "Class I with peptide",
         "non_classical_class_i_with_peptide": "Class I (non-classical) with peptide",
         "class_ii_with_peptide": "Class II with peptide",
-        "class_i_with_peptide_and_ab_t_cell_receptor": "Class I with peptide and &alpha;/&beta; T-cell receptor"
+        "class_i_with_peptide_and_ab_t_cell_receptor": "Class I with peptide and &alpha;/&beta; T-cell receptor",
+        "class_i_with_peptide_and_nk_receptor": "Class I with peptide and NK receptor",
+        "class_i_with_peptide_and_accessory_molecule":"Class I with peptide and accessory molecule"
     }
 }
